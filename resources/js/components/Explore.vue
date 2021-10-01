@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8">
+  <div class="p-8 font-poppins">
     <div class="flex justify-center">
       <div class="flex justify-end p-4 w-3/4">
         <router-link to="/" class="flex space-x-1 items-center">
@@ -24,9 +24,10 @@
       </div>
     </div>
     <div class="flex justify-center text-4xl p-4 items-baseline">
-      <span class="text-5xl">E</span><span>xplore</span>
+      <span class="text-xl text-gray-500">Explore</span>
       <span class="text-5xl">F</span><span>etan</span>
       <span class="text-5xl">A</span><span>falagi</span>
+
     </div>
 
     <div class="flex justify-center p-7">
@@ -246,7 +247,7 @@
                 />
               </svg>
             </div>
-            <div>This Weeks Top 10 Searchs</div>
+            <div>This Weeks Top 10 Searches</div>
           </div>
           <div class="pt-7 text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates

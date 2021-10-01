@@ -1,5 +1,6 @@
 import Home from "./components/Home";
 import Explore from "./components/Explore";
+import InfoDetail from "./components/InfoDetail";
 
 export default {
     mode: "history",
@@ -19,6 +20,11 @@ export default {
             path: "/explore",
             component: Explore,
             name: "Explore"
+        },
+        {
+            path: "/detail",
+            component: InfoDetail,
+            name: "detail"
         }
     ]
 };

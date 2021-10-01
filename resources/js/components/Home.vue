@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8">
+  <div class="p-8 font-poppins">
     <div class="flex justify-center">
       <div class="flex justify-end p-4 w-3/4">
         <router-link to="explore" class="flex space-x-1 items-center">
@@ -184,8 +184,7 @@
           Search results
         </div>
         <div class="p-4 overflow-y-auto">
-          <a
-            href="#"
+          <router-link
             class="
               flex flex-col
               sm:flex-row
@@ -197,6 +196,7 @@
             "
             v-for="i in 5"
             :key="i"
+            to="/detail"
           >
             <div class="flex flex-col sm:flex-row items-center">
               <div class="pr-2">
@@ -306,7 +306,7 @@
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
