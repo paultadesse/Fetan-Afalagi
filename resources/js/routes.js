@@ -1,4 +1,5 @@
 import Home from "./components/Home";
+import Explore from "./components/Explore";
 
 export default {
     mode: "history",
@@ -13,7 +14,11 @@ export default {
             path: "/",
             component: Home,
             name: "Home"
+        },
+        {
+            path: "/explore",
+            component: Explore,
+            name: "Explore"
         }
-
     ]
 };
