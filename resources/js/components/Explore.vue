@@ -229,7 +229,7 @@
     <div class="flex justify-center p-7">
       <div class="flex flex-col lg:flex-row justify-around w-10/12 border rounded-md shadow-lg">
         <div class="p-7">
-          <div class="text-4xl font-bold">
+          <div class="text-5xl font-bold">
             <div class="pr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -248,7 +248,7 @@
             </div>
             <div>This Weeks Top 10 Searchs</div>
           </div>
-          <div class="pt-7">
+          <div class="pt-7 text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             consequuntur earum tenetur id aliquid ea asperiores repudiandae
             ducimus harum cupiditate amet, maiores, quisquam odio reprehenderit
@@ -264,7 +264,7 @@
                 justify-center
                 space-x-2 space-y-2
                 w-3/4
-                text-md
+                text-sm
                 font-semibold
                 text-gray-400
               "
@@ -299,7 +299,7 @@
                     />
                   </svg>
                 </div>
-                <div>Company</div>
+                <div>EdnaMall</div>
               </a>
               <a
                 href="#"
@@ -331,7 +331,7 @@
                     />
                   </svg>
                 </div>
-                <div>Product</div>
+                <div class="flex">Ghion </div>
               </a>
             </div>
           </div>

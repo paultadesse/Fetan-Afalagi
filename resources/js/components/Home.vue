@@ -1,8 +1,8 @@
 <template>
   <div class="p-8">
     <div class="flex justify-center">
-      <div class="flex justify-end p-4   w-3/4">
-        <a href="#" class="flex space-x-1 items-center ">
+      <div class="flex justify-end p-4 w-3/4">
+        <router-link to="explore" class="flex space-x-1 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
@@ -15,7 +15,7 @@
             />
           </svg>
           <div class="text-gray-400 hover:text-black text-sm">Explore</div>
-        </a>
+        </router-link>
       </div>
     </div>
     <div class="flex justify-center text-4xl p-4 items-baseline">
@@ -58,6 +58,107 @@
         </a>
       </div>
     </div>
+    <!-- filter checkboxes -->
+    <div class="flex justify-center  pt-5">
+      <div class="flex flex-wrap  justify-center items-center space-y-1 space-x-1 lg:space-y-0 lg:space-x-6 uppercase font-light text-gray-900 text-sm">
+        <label
+          class="
+            flex
+            items-center
+            justify-around
+            space-x-2
+            w-40
+            bg-gray-100
+            p-2
+            rounded-md
+          "
+          for=""
+        >
+          <input class="w-5 h-5" type="checkbox" name="" id="" />
+          <span>company</span>
+        </label>
+        <label
+          class="
+            flex
+            items-center
+            justify-around
+            space-x-2
+            w-40
+            bg-gray-100
+            p-2
+            rounded-md
+          "
+          for=""
+        >
+          <input class="w-5 h-5" type="checkbox" name="" id="" />
+          <span>product</span>
+        </label>
+        <label
+          class="
+            flex
+            items-center
+            justify-around
+            space-x-2
+            w-40
+            bg-gray-100
+            p-2
+            rounded-md
+          "
+          for=""
+        >
+          <input class="w-5 h-5" type="checkbox" name="" id="" />
+          <span>service</span>
+        </label>
+        <label
+          class="
+            flex
+            items-center
+            justify-around
+            space-x-2
+            w-40
+            bg-gray-100
+            p-2
+            rounded-md
+          "
+          for=""
+        >
+          <input class="w-5 h-5" type="checkbox" name="" id="" />
+          <span>city</span>
+        </label>
+        <label
+          class="
+            flex
+            items-center
+            justify-around
+            space-x-2
+            w-40
+            bg-gray-100
+            p-2
+            rounded-md
+          "
+          for=""
+        >
+          <input class="w-5 h-5" type="checkbox" name="" id="" />
+          <span>area</span>
+        </label>
+        <label
+          class="
+            flex
+            items-center
+            justify-around
+            space-x-2
+            w-40
+            bg-gray-100
+            p-2
+            rounded-md
+          "
+          for=""
+        >
+          <input class="w-5 h-5" type="checkbox" name="" id="" />
+          <span>others</span>
+        </label>
+      </div>
+    </div>
     <!-- search results card  -->
     <div class="flex justify-center pt-8">
       <div
@@ -94,7 +195,7 @@
               hover:bg-gray-50
               hover:border-opacity-100
             "
-            v-for="i in 7"
+            v-for="i in 5"
             :key="i"
           >
             <div class="flex flex-col sm:flex-row items-center">
@@ -117,7 +218,7 @@
               <div class="flex-col">
                 <div class="uppercase text-lg font-bold">Edna Mall</div>
                 <div class="text-gray-400 max-w-md truncate">
-                  some description about edna mall and so on...
+                  Some description about edna mall and so on...
                 </div>
               </div>
             </div>
@@ -180,7 +281,7 @@
                       </svg>
                     </div>
                     <div class="text-sm text-gray-400">
-                      Around bole medhanealem
+                      Around Bole Medhanealem
                     </div>
                   </div>
                   <div class="flex items-baseline space-x-1">
