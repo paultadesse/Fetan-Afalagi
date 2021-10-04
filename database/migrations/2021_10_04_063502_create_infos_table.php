@@ -17,7 +17,7 @@ class CreateInfosTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('phone');
-            $table->string('addrerss');
+            $table->string('address');
             $table->string('pobox');
             $table->string('fax');
             $table->string('email');
