@@ -9,5 +9,10 @@ class Info extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name' ,'phone', 'address', 'pobox', 'fax', 'email', 'about'];
+    protected $fillable = ['name', 'phone', 'address', 'pobox', 'fax', 'email', 'about'];
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }
