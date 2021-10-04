@@ -1,5 +1,6 @@
 import Home from "./components/Home";
 import Explore from "./components/Explore";
+import ExploreByCategory from "./components/ExploreByCategory";
 import InfoDetail from "./components/InfoDetail";
 
 export default {
@@ -20,6 +21,12 @@ export default {
             path: "/explore",
             component: Explore,
             name: "Explore"
+        },
+        ,
+        {
+            path: "/explore-by-category",
+            component: ExploreByCategory,
+            name: "ExploreByCategory"
         },
         {
             path: "/detail",

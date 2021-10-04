@@ -42,8 +42,8 @@
           text-gray-400
         "
       >
-        <a
-          href="#"
+        <router-link
+          to="/explore-by-category"
           class="
             flex
             items-center
@@ -73,7 +73,7 @@
             </svg>
           </div>
           <div>Company</div>
-        </a>
+        </router-link>
         <a
           href="#"
           class="
