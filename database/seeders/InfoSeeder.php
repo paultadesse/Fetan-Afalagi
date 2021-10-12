@@ -14,6 +14,6 @@ class InfoSeeder extends Seeder
      */
     public function run()
     {
-        Info::factory()->count(10)->create();
+        Info::factory()->count(10000)->create();
     }
 }
